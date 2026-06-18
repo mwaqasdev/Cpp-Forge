@@ -1,41 +1,65 @@
 # Cpp-Forge
-A collection of my C++ projects and coding explorations. From basic concepts to more advanced solutions, everything is forged here. 💻🚀
 
-<!--
-# Cpp-Forge
+Welcome to **Cpp-Forge**, a collection of my C++ projects and coding explorations. From basic concepts to more advanced solutions, everything is forged here! 💻🚀
 
-A comprehensive collection of C++ programs demonstrating various programming concepts, data structures, and algorithms.
+## 📋 Project Overview
 
-## 🚀 Overview
+This repository contains several console-based C++ applications that demonstrate fundamental and intermediate programming concepts, including Object-Oriented Programming (OOP), memory management, mathematics/statistics, and basic user interfaces.
 
-Cpp-Forge is a repository dedicated to learning and practicing C++ programming. It contains various examples and implementations ranging from basic concepts to advanced programming techniques.
+## ✨ Features and Included Projects
 
-## 📚 Contents
+1. **ATM System (`ATM_system.cpp`)**
+   - User authentication system with password checks.
+   - Core banking features: check balance, deposit, and withdraw funds.
+   - Interactive console UI with colored text.
 
-The repository includes implementations of:
-- Basic C++ Programs
-- Data Structures
-- Algorithms
-- Problem-Solving Examples
-- Programming Patterns
+2. **Cafeteria Management System (`CafeteriaManagementSystem.cpp`)**
+   - Menu item management using `std::vector`.
+   - Take orders, calculate bills, and manage quantities.
+   - Clean implementation of classes and objects.
 
--->
+3. **Vehicle Rental Management System (`VRMS-Vehicle Rental Management System.cpp`)**
+   - Comprehensive rental logic for Bikes, Cars, and Vans.
+   - Dynamic price calculation based on duration, vehicle type, brand, and model.
+   - Damage assessment and late fee calculations.
+   - Secure generation of unique rental codes.
 
-## 🛠️ Prerequisites
+4. **Pearson Coefficient Calculator (`Pearson-Coefficient-Calculator/statistic.cpp`)**
+   - Statistical tool for calculating the Pearson product-moment correlation coefficient.
+   - Array manipulations, sums, products, and complex mathematical formulas (`<cmath>`).
 
-- C++ Compiler (GCC, Clang, or MSVC)
-- Basic understanding of C++ programming
-- Code editor (VS Code, Visual Studio, etc.)
+## 🛠️ Tech Stack
 
-## 💻 How to Use
+- **Language:** C++ (Standard C++11/C++14)
+- **Libraries:** `<iostream>`, `<vector>`, `<string>`, `<cmath>`, `<windows.h>`, `<algorithm>`, `<ctime>`
+- **Environment:** Windows Command Prompt / PowerShell
+- **Concepts Applied:** Object-Oriented Programming (OOP), Data Structures (Vectors/Arrays), Control Flow, File I/O, Error Handling, Memory Management.
 
-1. Clone the repository:
+## 🚀 Installation & Usage
+
+1. **Clone the repository:**
    ```bash
-   git clone https://github.com/m-waqas007/Cpp-Forge.git
+   git clone https://github.com/mwaqasdev/Cpp-Forge.git
+   cd Cpp-Forge
    ```
 
-2. Navigate to the specific program directory
-3. Compile and run the C++ files using your preferred compiler
+2. **Compile the code:**
+   You can use `g++` (MinGW) or any standard C++ compiler to compile these files.
+   ```bash
+   g++ -o ATM_system ATM_system.cpp
+   g++ -o VRMS "VRMS-Vehicle Rental Management System.cpp"
+   ```
+
+3. **Run the executable:**
+   ```bash
+   ./ATM_system
+   ./VRMS
+   ```
+
+## 🔒 Security & Best Practices
+
+- No hardcoded secrets, credentials, or sensitive data are included in this repository.
+- A comprehensive `.gitignore` ensures that build artifacts (`.exe`, `.o`), editor configurations, and temporary OS files are excluded from version control.
 
 ## 🤝 Contributing
 
@@ -48,9 +72,9 @@ Contributions are welcome! Feel free to:
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## 👤 Author
+## 👨‍💻 Author
 
-- GitHub: [@m-waqas007](https://github.com/m-waqas007)
+- **GitHub:** [@mwaqasdev](https://github.com/mwaqasdev)
 
 ## ⭐ Support
 
